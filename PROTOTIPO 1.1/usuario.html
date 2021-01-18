@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/css/index.css" type="text/css"/>
+</head>
+<body>
+    <header>
+        <center><hr/><img src="resources/images/tittle-removebg-preview.png" alt="Workplace" usemap="#head"/>
+            <map name="head">
+                <area shape="rect" coords="1,1,896,58" alt="Head_" href="index.html"/>
+            </map><hr/></center>
+    </header>
+        
+    <form>    
+        <p>Datos Personales</p>
+        <table class="tabla1">
+            <tr>
+                <td><p>Nombres *</p></td>
+                <td><input required="true"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><p>Apellidos *</p></td>
+                <td><input required="true"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><p>Sexo *</p></td>
+                <td>
+                    <form action="/action_page.php">
+                        <input type="radio" name="gender" value="male">
+                        <label for="male">Hombre</label>
+                        <input type="radio" name="gender" value="female">
+                        <label for="female">Mujer</label>
+                    </form>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><p>Fecha Nacimiento *</p></td>
+                <td>
+                    <form action="/action_page.php">
+                    <input type="date" id="birthday" name="birthday">
+                    </form>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Tipo de Cuenta *</td>
+                <td>
+                    <form action="/action_page.php">
+                        <select name="cars" id="cars">
+                            <option value="volvo">Administrador</option>
+                            <option value="saab">Operario</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td><p>Correo *</p></td>
+                <td><input required="true"></td>
+            </tr>
+            <tr>
+                <td><p>Clave *</p></td>
+                <td><input required="true"></td>
+            </tr>
+            <tr>
+                 <td><p>Repetir Clave *</p></td>
+                <td><input required="true"></td>
+            </tr>
+        </table><br>
+        <input type="submit" value="Registrar">
+    </form><br><br><br><br>
+        
+    <footer>
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-columna">
+                    <h2>About</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla commodi nesciunt, ullam dolor aliquid adipisci ad dolorem, reprehenderit beatae dolorum nostrum earum facilis doloribus, cumque asperiores quibusdam iste. Iste, tempore.
+                        <a href="about.html" style="color: grey">Mas Info</a>
+                    </p>
+                </div>
+                <div class="footer-columna">
+                    <h2>Contact</h2>
+                    <span class="fa fa-address-card" aria-hidden="true"><p>Isaac Castro</p></span><br/>
+                    <span class="fa fa-address-card" aria-hidden="true"><p>Rebeca Freire</p></span><br/>
+                    <span class="fa fa-address-card" aria-hidden="true"><p>Michael Banda</p></span><br/>
+                    <a href="contact.html" style="color: grey">Contactanos</a>
+                </div>
+            </div>
+        </div>
+            
+        <div class="footer-copy-redes">
+            <div class="main-copy-redes">
+                <div class="footer-copy">
+                    © 2020 | Derechos Reservados | <a target="_blank" href="https://www.ups.edu.ec/" style="color: grey"> Universidad Politecnica Salesiana</a> | Proyecto Intergrador 5to Semestre
+                </div>
+                <div class="footer-redes">
+                    <a target="_blank" href="https://www.facebook.com/christian12lp" class="fa fa-facebook"></a>
+                    <a target="_blank" href="#" class="fa fa-github"></a>
+                    <a target="_blank" href="https://creativecommons.org/" class="fa fa-creative-commons"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
