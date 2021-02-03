@@ -27,6 +27,186 @@
   padding: 10px 15px;
   margin-top: 7px;
 }
+/*contenido*/
+#principal{
+    width: 80%;
+    height: auto; overflow: hidden;
+    border: 1px solid ;
+    margin: 10px auto;
+}
+
+#publicaciones{
+    width: 100%;
+    height: auto; 
+    overflow: hidden;
+    border: 1px solid ;
+    margin-top: 10px auto;
+}
+
+.post{
+    width: 96%;
+    height: auto; overflow: hidden;
+    padding: 7px;
+    background: #fdfdfd;
+    border-left-style: solid ;
+    border-left-width: 5px;
+    border-left-color: #048901;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #ccc;
+    margin-bottom: 25px;
+}
+    .enlace-post{
+        text-decoration: none;
+    }
+    #publicaciones a .titulo-post{
+        color: #6e6e6e;
+        font-size: 22px; 
+        font-family: 'calibri light';
+    }
+        #publicaciones a .titulo-post:hover{
+            text-decoration: underline;
+        }
+    #publicaciones .img-post{
+        width: 150px;
+        height: 100px;
+        float: left;
+        margin: 7px 7px 7px 0px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+#publicaciones .datos-publicaciones{
+    font-family: 'calibri light';
+    color: #0489b1
+}
+
+#publicaciones .parrafo-post{
+    font-family: 'calibri light';
+    font-size: 16px;
+    color: #848484;
+    padding: 5px;
+}
+
+#publicaciones .leer-mas{
+    background: #0489b1;
+    color: #fff;
+    border: 0px;
+    padding: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#publicaciones .num-comentarios{
+    background: #0b3b39;
+    color: #fff;
+    border: 0px;
+    border-radius: none;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.footer-container {
+	width: 100%;
+	background: #272727;
+	color: #fff;
+}
+
+.footer-main {
+	width: 98%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 50px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer-main .footer-columna {
+	width: calc(100% / 3);
+	text-align: justify;
+}
+
+
+.footer-main .footer-columna:nth-child(2) {
+	padding: 0 20px;
+}
+
+.footer-main .footer-columna h3 {
+	font-size: 32px;
+	color: #00C6EE;
+	margin-bottom: 20px;
+}
+
+.footer-main .footer-columna input[type="email"] {
+	border: none;
+	width: 100%;
+	border: 1px solid #00C6EE;
+	font-size: 14px;
+	padding: 10px;
+	font-family: Raleway;
+}
+
+.footer-main .footer-columna input[type="submit"] {
+	border: none;
+	background: #00C6EE;
+	color: #fff;
+	padding: 10px 40px;
+	font-size: 18px;
+	margin-top: 10px;
+	cursor: pointer;
+	font-family: Raleway;
+}
+
+.footer-main .footer-columna span p {
+	display: inline-block;
+	margin-left: 5px;
+	margin-bottom: 15px;
+	font-family: Raleway;
+}
+
+.footer-copy-redes {
+	width: 100%;
+	background: #000;
+	border-top: 3px solid #fff;
+}
+
+.main-copy-redes {
+	width: 98%;
+	max-width: 1000px;
+	padding: 15px 0;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.main-copy-redes .footer-copy {
+	width: 70%;
+	color: #fff;
+}
+
+.main-copy-redes .footer-redes {
+	width: 30%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+.main-copy-redes .footer-redes a {
+	display: inline-block;
+	text-decoration: none;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius:50%;
+	background: #fff;
+	color: #000;
+	text-align: center;
+}
 
 @media only screen and (max-width:800px) {
   /* For tablets: */
@@ -45,40 +225,204 @@
   }
 }
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 </head>
 <body style="font-family:Verdana;">
 
 <div style="background-color:#f1f1f1;padding:15px;">
-  <h1>Cinque Terre</h1>
-  <h3>Resize the browser window</h3>
+  <center><hr/><img src="https://lh3.googleusercontent.com/-K41G2OVhXM4/YBoHELrC9_I/AAAAAAAAdiY/uvXBHvIdMmkpLePizTQHOz-_AK3Ju_rNACLcBGAsYHQ/bg-removebg-preview.png" alt="Workplace" usemap="#head"><hr/></center>
 </div>
 
 <div style="overflow:auto">
   <div class="menu">
-    <div class="menuitem">The Walk</div>
-    <div class="menuitem">Transport</div>
-    <div class="menuitem">History</div>
-    <div class="menuitem">Gallery</div>
+    <div class="menuitem">
+      <img src="https://www.tekcrispy.com/wp-content/uploads/2018/07/moleculas-farmacos-ia.jpg" tittle="water" width="350px">
+    </div>
+    <div class="menuitem">
+      <img src="https://www.tekcrispy.com/wp-content/uploads/2018/07/moleculas-farmacos-ia.jpg" tittle="water" width="350px">
+    </div>
+    <div class="menuitem">
+      <img src="https://www.tekcrispy.com/wp-content/uploads/2018/07/moleculas-farmacos-ia.jpg" tittle="water" width="350px">
+    </div>
+    <div class="menuitem">
+      <img src="https://www.tekcrispy.com/wp-content/uploads/2018/07/moleculas-farmacos-ia.jpg" tittle="water" width="350px">
+    </div>
+    <div class="menuitem">
+      <img src="https://www.tekcrispy.com/wp-content/uploads/2018/07/moleculas-farmacos-ia.jpg" tittle="water" width="350px">
+    </div>
+    <div class="menuitem">
+      <img src="https://www.tekcrispy.com/wp-content/uploads/2018/07/moleculas-farmacos-ia.jpg" tittle="water" width="350px">
+    </div>
+    <div class="menuitem">
+      <img src="https://www.tekcrispy.com/wp-content/uploads/2018/07/moleculas-farmacos-ia.jpg" tittle="water" width="350px">
+    </div>
   </div>
 
   <div class="main">
-    <h2>The Walk</h2>
-    <p>The walk from Monterosso to Riomaggiore will take you approximately two hours, give or take an hour depending on the weather conditions and your physical shape.</p>
-    <img src="https://www.tekcrispy.com/wp-content/uploads/2018/07/moleculas-farmacos-ia.jpg" style="width:100%">
+    <section id="principal">
+        <section id="publicaciones">
+            <article class="post">
+                <a href=""class="enlace-post">
+                    <h2 class="titulo-post">QUITO grande otra vez</h2>
+                <img src="img/Quito.png" class="img-post">
+                <p>
+                    <strong>Por:</strong><span class:"datos-publicaciones"> Michael Banda</span>
+                    &nbsp; &nbsp;
+                    <strong>Fecha:</strong><span class:"datos-publicaciones"> Lunes 11 de Enero del 2021</span>
+                </p>
+                <p class="parrafo-post">
+                    La Ley Orgánica de Transparencia y Acceso a la Información Pública (LOTAIP) obliga a observar a 
+                    todas las Instituciones del estado que conforman el sector público en los términos del artículo 
+                    118 de la Constitución Política de la República y demás entes señalados en el artículo 1 de la 
+                    misma Ley, a difundir a través de un portal de información o página web, así como de los medios 
+                    necesarios a disposición del público implementados en la misma institución, la siguiente 
+                    información mínima actualizada, que para efectos de esta Ley, se le considera de naturaleza 
+                    obligatoria.
+
+                </p>
+
+                <a href="" class="leer-mas">Leer mas...</a>
+            </article>
+
+            <article class="post">
+                <a href=""class="enlace-post">
+                    <h2 class="titulo-post">QUIÉNES SOMOS</h2>
+                <img src="img/academia_diplomatica.jpg" class="img-post">
+                <p>
+                    <strong>Por:</strong><span class:"datos-publicaciones"> Michael Banda</span>
+                    &nbsp; &nbsp;
+                    <strong>Fecha:</strong><span class:"datos-publicaciones"> Jueves 21 de Enero del 2021</span>
+                </p>
+                <p class="parrafo-post">
+                    Reporte obtenido en la Fundación Unión Europea-América Latina y el Caribe (Fundación EU-LAC) 
+                    fue creada por los Jefes de Estado y de Gobierno de la Unión Europea (UE) y de la Comunidad de 
+                    Estados Latinoamericanos y Caribeños (CELAC) en 2010. Sus miembros son los países de la UE y CELAC 
+                    y la propia UE. La Fundación es una herramienta de la asociación UE-CELAC y sus actividades nutren 
+                    el diálogo intergubernamental, en línea con el Plan de Acción birregional.
+
+                    La Fundación tiene la misión de fortalecer y promover la asociación estratégica birregional, 
+                    mejorando su visibilidad y fomentando la participación activa de las sociedades civiles 
+                    respectivas.
+
+                    El Acuerdo Constitutivo entró en vigor el 17 de mayo de 2019, a partir del depósito del instrumento 
+                    de ratificación por parte de Miembros, incluyendo la República Federal de Alemania y la Unión Europea, 
+                    estableciendo así a la Fundación como Organización Internacional. El Acuerdo Constitutivo de la 
+                    Fundación es el primer acuerdo internacional negociado por todos los 62 Miembros de la Asociación 
+                    Estratégica entre la Unión Europea, América Latina y el Caribe, representando con su entrada en vigor 
+                    un hito birregional.
+
+                    El depositario del Acuerdo por el que se establece la Fundación Internacional EU-ALC es el Consejo 
+                    Europeo y se ha abierto a ratificaciones el 25 de octubre de 2016 hasta la fecha de su entrada en vigor.  
+
+                </p>
+                <a href="" class="leer-mas">Leer mas...</a>
+            </article>
+
+            <article class="post">
+                <a href=""class="enlace-post">
+                    <h2 class="titulo-post">CARACTERÍSTICAS DEL CANTÓN</h2>
+                <img src="img/canton.jfif" class="img-post">
+                <p>
+                    <strong>Por:</strong><span class:"datos-publicaciones"> Michael Banda</span>
+                    &nbsp; &nbsp;
+                    <strong>Fecha:</strong><span class:"datos-publicaciones"> Sábado 30 de Enero del 2021</span>
+                </p>
+                <p class="parrafo-post">
+                    El Distrito Metropolitano de Quito (DMQ)  es la capital de la República y de la provincia de Pichincha. 
+                    Además, es una de las ciudades más hermosas y prósperas de América. Fue declarada por la UNESCO como 
+                    "Patrimonio Cultural de la Humanidad", el 18 de septiembre de 1978.
+
+                    La reconocida belleza de la ciudad de Quito responde a su entorno natural; así como a las artes y 
+                    arquitectura que se han desarrollado aquí desde la Colonia. Durante los siglos XVII y XVIII floreció 
+                    la Escuela Quiteña, que tuvo maestros escultores como Caspicara, Legarda (autor de la célebre Virgen 
+                    de Quito), y pintores de la talla de Goribar, Miguel de Santiago y Miguel Samaniego. Se erigieron los 
+                    templos de San Francisco y La Compañía, la cual tiene estilo barroco americano, que fue el resultado 
+                    del mestizaje indio y español.
+
+                    Los visitantes suelen acudir a la Catedral Metropolitana, que guarda obras de destacados pintores y 
+                    escultores. Los templos de Santo Domingo, San Agustín, La Merced, y las capillas del Sagrario y San 
+                    Diego contienen también obras de Legarda, Miguel de Santiago, Víctor Mideros, Samaniego y Joaquín 
+                    Pinto.
+
+                    La ciudad está dividida en tres zonas claramente definidas y que se caracterizan por sus matices 
+                    arquitectónicos y particularidades culturales: en el norte se ubica el Quito moderno, donde se 
+                    erigen grandes estructuras urbanas y comerciales. El centro o Quito antiguo reúne el legado 
+                    colonial-artístico y ofrece un ambiente cautivador, cuando se desarrollan procesiones religiosas y 
+                    eventos culturales. En el sector sur se puede ubicar núcleos de expresión juvenil, que impulsan 
+                    nuevas formas de cultura e interacción social.
+
+                    En San Antonio de Pichincha se encuentra La Mitad del Mundo, ubicada en la latitud 0°0'0", sobre 
+                    la línea ecuatorial. Aquí está el grandioso Monumento Equinoccial colocado con sus cuatro monolitos 
+                    en 1979. El monolito central está decorado con un globo rodeado por una cinta de plata que representa 
+                    al Ecuador. El globo está orientado de acuerdo a la verdadera posición de la tierra y en su interior 
+                    posee un museo etnográfico, a un costado la Ciudad Mitad del Mundo, con restaurantes, tiendas de 
+                    artesanías y espacios donde se realizan muchos actos culturales y artísticos. 
+                </p>
+                <a href="" class="leer-mas">Leer mas...</a>
+            </article>
+        </section>
+    </section>
   </div>
 
   <div class="right">
-    <h2>What?</h2>
-    <p>Cinque Terre comprises five villages: Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore.</p>
-    <h2>Where?</h2>
-    <p>On the northwest cost of the Italian Riviera, north of the city La Spezia.</p>
-    <h2>Price?</h2>
-    <p>The Walk is free!</p>
+    <h2>Rios Quito-Ecuador?</h2>
+    <p>Contamos con los 7 principales Rios del Distrito Metropolitano de Quito:</p>
+    <ul>
+      <li>Guayllabamba</li>
+      <li>Monjas</li>
+      <li>Machángara</li>
+      <li>San Pedro</li>
+      <li>San Pedro DJ Sta Clara</li>
+      <li>Pita</li>
+      <li>Pita Canteras</li>
+    </ul>
+
+    <h2>Criterios de calidad</h2>
+    <p>Los siguientes criterios a evaluar son:</p>
+    <ol>
+      <li>Consumo humano Y doméstico</li>
+      <li>Preservación vida acuática y silvestre</li>
+      <li>Agrícola o de riego</li>
+      <li>Precuario</li>
+    </ol>
+    <h2>Como?</h2>
+    <p>Los siguientes rios estaran evaluados frente a 28 parametros, los cuales determinaran su distitno criterio de calidad.</p>
   </div>
 </div>
 
 
-<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> This web page is a part of a demonstration of fluid web design made by w3schools.com. Resize the browser window to see the content respond to the resizing.</div>
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> 
+  <div class="footer-container">
+    <div class="footer-main">
+      <div class="footer-columna">
+        <h3>Direcci&oacute;n</h3>
+        <span class="fa fa-map-marker"><p>Rumichaca y Moran Valverde s/n</p></span>
+        <span class="fa fa-phone"><p>(+593) 2 3962900 3962800</p></span>
+        <span class="fa fa-envelope"><p>rfreireu@ups.edu.ec</p></span>
+      </div>
+      <div class="footer-columna">
+        <h3>Sobre Nosotros</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque, voluptate incidunt a debitis iure, dolorem amet porro doloremque, saepe assumenda omnis fugit aliquid dolor inventore reprehenderit in cupiditate esse!</p>
+      </div>
+      <div class="footer-columna">
+        <!-- <img src="resources/images/bg.png" width="400" height="100"> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-copy-redes">
+    <div class="main-copy-redes">
+      <div class="footer-copy">
+        &copy; 2020 Derechos Reservados | Proyecto Integrador P56 | <a target="_blank" href="https://www.ups.edu.ec/">Universidad Polit&eacute;cnica Salesiana</a> 
+      </div>
+      <div class="footer-redes">
+        <a target="_blank" href="https://www.facebook.com/rebeka.schizophrenia" class="fab fa-facebook"></a>
+        <a target="_blank" href="about.jsp" class="fa fa-user"></a>
+        <a target="_blank" href="https://www.instagram.com/rebeurrst/" class="fab fa-instagram"></a>
+      </div>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
